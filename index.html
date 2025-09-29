@@ -2,81 +2,92 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Creación de Página Web con GitHub Pages</title>
+  <title>Práctica con GitHub Pages</title>
   <style>
     body {
       margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      color: #2e2e2e;
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f6f9;
+      color: #333;
     }
 
-    /* Barra lateral */
-    .sidebar {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 200px;
-      height: 100%;
-      background-color: #b3542e;
+    /* Encabezado superior */
+    header {
+      background-color: #1e3a8a; /* Azul marino */
       color: white;
-      font-weight: bold;
-      display: flex;
-      align-items: flex-start;
       padding: 20px;
+      text-align: center;
     }
 
-    .sidebar h3 {
+    header h1 {
       margin: 0;
-      font-size: 14px;
-      letter-spacing: 1px;
+      font-size: 36px;
+      letter-spacing: 2px;
     }
 
-    /* Contenido */
-    .content {
-      margin-left: 220px;
-      padding: 50px;
+    header h2 {
+      margin: 5px 0 0;
+      font-size: 18px;
+      font-weight: normal;
+      color: #cbd5e1;
     }
 
-    h1 {
-      font-size: 42px;
-      margin-bottom: 10px;
-    }
-
-    h1 span {
-      color: #b3542e;
+    /* Contenedor principal */
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: white;
+      border-radius: 12px;
+      padding: 40px;
+      box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
     }
 
     .info {
-      margin: 15px 0;
+      margin: 20px 0;
       font-size: 18px;
-      color: #666;
+      line-height: 1.6;
     }
 
     .info strong {
-      color: #000;
+      color: #1e3a8a;
     }
 
     p {
       font-size: 16px;
-      margin-top: 40px;
+      margin-top: 20px;
       color: #555;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #e5e7eb;
+      font-size: 14px;
+      margin-top: 50px;
     }
   </style>
 </head>
 <body>
-  <!-- Barra lateral -->
-  <div class="sidebar">
-    <h3>PRACTICA ELECTIVA 2</h3>
-  </div>
+  <!-- Encabezado -->
+  <header>
+    <h1>CREACIÓN DE PÁGINA WEB</h1>
+    <h2>Con GitHub Pages</h2>
+  </header>
 
   <!-- Contenido -->
-  <div class="content">
-    <h1>CREACION DE PAGINA WEB CON <span>GITHUB PAGES</span></h1>
+  <div class="container">
     <div class="info">
-      NOMBRE: Rafael Antonio Urbaez Hernandez <br>
-      <strong>MATRICULA: 2024-0173</strong>
+      <p><strong>Nombre:</strong> Rafael Urbaez</p>
+      <p><strong>Matrícula:</strong> 2024-0173</p>
     </div>
-    <p>Esto es una pagina creada con GitHub Pages para la práctica de Electiva 2.</p>
+    <p>
+      Esta es una página creada con <strong>GitHub Pages</strong> como parte de la práctica de Electiva 2.
+    </p>
   </div>
+
+  <!-- Pie de página -->
+  <footer>
+    © 2025 - Proyecto Electiva 2 | GitHub Pages
+  </footer>
 </body>
 </html>
